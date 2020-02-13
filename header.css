@@ -30,14 +30,14 @@
     flex:1
 }
 
-#Account{
+#Menu{
     flex:1
 }
 
 #contact_icon{
     position:relative;
     bottom:27px;
-    left:65px; 
+    left:50px; 
 }
 
 #moon{
