@@ -1,0 +1,54 @@
+#Header{
+    background-color:rgb(69, 74, 75);
+    width:100vw;
+    height:110px;
+    color:white;
+    font-family: 'Sriracha', cursive;
+    font-display: 25px;
+}
+
+#content{
+    display:flex;
+    position: relative;
+    top:40px;
+}
+
+#Home{
+    margin-left:400px;
+    flex:2
+}
+
+#Products{
+    flex:2
+}
+
+#About{
+    flex:2
+}
+
+#Contact{
+    flex:1
+}
+
+#Account{
+    flex:1
+}
+
+#contact_icon{
+    position:relative;
+    bottom:27px;
+    left:65px; 
+}
+
+#moon{
+    height:80px;
+    width:80px;
+    position: relative;
+    left:80px;
+    bottom:25px;
+}
+
+#moontext{
+    position:relative;
+    left:100px;
+}
