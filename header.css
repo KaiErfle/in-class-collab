@@ -1,7 +1,7 @@
 #Header{
     background-color:rgb(69, 74, 75);
     width:100vw;
-    height:20vh;
+    height:110px;
     color:white;
     font-family: 'Sriracha', cursive;
     font-display: 25px;
@@ -46,4 +46,9 @@
     position: relative;
     left:80px;
     bottom:25px;
+}
+
+#moontext{
+    position:relative;
+    left:100px;
 }
