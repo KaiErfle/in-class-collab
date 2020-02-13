@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <head>
     <title> in class collab with the bros </title>
-    <link href="app.css" rel="styleguide" type="text/styleguide">
+    <link href="app.css" rel="stylesheet" type="text/css">
+    <link href="menu.css" rel="stylesheet" type="text/css">
 </head>
 <body>
 
@@ -12,10 +13,17 @@
 
     <!-- menu goes here -->
     <div class="drop_menu">
-        <div id="menu">
+        <div id="menu" onclick="menuToggle()">
+            Menu </div>
             <div id="menu_contents">
+                <p>Account</p>
+                <p>Your Posts</p>
+                <p>Saved</p>
+                <p>Help</p>
+                <p>Preferences</p>
+                <p>Settings</p>
                 
-            </div>
+            
         </div>
     </div>
 
@@ -31,4 +39,5 @@
 
 
     <script src="app.js"></script>
+    <script src="menu.js"></script>
 </body>
